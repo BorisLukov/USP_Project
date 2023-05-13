@@ -1,0 +1,77 @@
+html { overflow-x:hidden; background: #FFBE7BFF; }
+body { position: absolute; }
+p{font-size: 130%;}
+
+
+div.header_of_site{
+    font-size: xx-large;
+    text-align: center;
+    font-family: serif;
+    position:fixed;
+    bottom: 600px;
+    left: 300px;
+    right: 40px;
+}
+
+div.sorting{
+    text-align: right;
+    position: fixed;
+    top: 140px;
+    left: 300px;
+    right: 40px;
+    bottom: 540px;
+}
+
+div.filtering{
+    position: fixed;
+    top: 170px;
+    left: 30px;
+    right: 75%;
+    bottom: 30px;
+    
+}
+
+div.filterbox{
+    background-color: #EED971FF;
+    height: 80px;
+    width: 160px;
+    overflow: auto;
+}
+
+div.apartments{
+    overflow: auto;
+    position: fixed;
+    top: 200px;
+    bottom: 60px;
+    left: 300px;
+    right: 30px;
+    text-align: left;
+    color: black;
+}
+
+div.background{
+    background: url(hero.jpg) center center no-repeat;
+    background-size: cover;
+    position: fixed;
+    bottom: 50px;
+    left: 240px;
+    right: 30px;
+    top: 195px;
+    opacity: 0.5;
+}
+
+.submit{
+    background-color: #FFA351FF;
+    border: 10px solid #000;
+    font-size: 12px;
+    padding: 12px 28px;
+    text-align: center;
+    border-radius: 12px;
+    transition-duration: 0.5; 
+      
+}
+
+.submit:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
